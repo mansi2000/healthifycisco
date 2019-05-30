@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a37575</color>
+    <color name="colorPrimaryDark">#996666</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="screen">#a37575</color>
+    <color name="dot_dark">#7a5252</color>
+    <color name="dot_light">#b89494</color>
+
+    <string-array name="dot_active" />
+</resources>
