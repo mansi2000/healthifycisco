@@ -5,5 +5,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home2">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginPage"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/healthifylogo" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            />
+
+        <EditText
+            android:id="@+id/email_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            />
+
+        <EditText
+            android:id="@+id/password_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Password"/>
+
+        <TextView
+            android:id="@+id/forgot_password_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="----------------------------------------OR-----------------------------------------" />
+
+        <Button
+            android:id="@+id/add_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>

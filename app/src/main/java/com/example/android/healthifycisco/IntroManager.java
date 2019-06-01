@@ -20,6 +20,7 @@ public class IntroManager {
     }
 
     public static boolean Check(){
+
         return pref.getBoolean("check",true);
     }
 }
