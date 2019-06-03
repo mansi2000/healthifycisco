@@ -23,50 +23,50 @@
 
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            />
+
+
+
 
         <EditText
-            android:id="@+id/email_txt"
+            android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter email"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            />
+            android:layout_margin="15dp"
+            android:hint="Enter email"
+
+            android:inputType="textEmailAddress" />
+
 
         <EditText
-            android:id="@+id/password_txt"
+            android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter Password"/>
+            android:layout_margin="15dp"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:password="true" />
 
         <TextView
             android:id="@+id/forgot_password_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="15dp"
             android:text="Forgot Password?" />
 
         <Button
-            android:id="@+id/login_btn"
+            android:id="@+id/buttonSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="----------------------------------------OR-----------------------------------------" />
+            android:layout_margin="15dp"
+            android:text="Signup" />
 
-        <Button
-            android:id="@+id/add_string"
+        <TextView
+            android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register" />
+            android:layout_margin="15dp"
+            android:text="New user? Register here"
+            android:textAlignment="center"/>
 
 
     </LinearLayout>
